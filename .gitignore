@@ -1,0 +1,211 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.pnp.cjs
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+/dist
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env
+.env*.local
+.env*.production
+.env*.development
+
+# vercel
+.vercel
+
+# turbo
+.turbo
+
+# local state
+.state/
+*.cache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# logs
+logs/
+*.log
+log/
+
+# build outputs
+dist/
+build/
+.cache/
+
+# testing coverage
+.nyc_output/
+
+# dependency directories
+jspm_packages/
+
+# optional eslint cache
+.eslintcache
+
+# optional stylelint cache
+.stylelintcache
+
+# optional REPL history
+.node_repl_history
+
+# output of 'npm pack'
+*.tgz
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# dotenv environment variable files
+.env*.local
+
+# parcel
+.parcel-cache
+
+# next.js build output
+.next
+
+# storybook build output
+storybook-static
+
+# react component library build output
+dist-storybook
+
+# intellij
+.idea/*
+*.iml
+
+# vscode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# mac files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+
+# temporary files
+*.tmp
+*.temp
+.tmp
+.temp
+
+# backup files
+*.bak
+*.backup
+
+# local configuration files
+config.local.*
+*.local.json
+
+# build artifacts
+.next-build
+.next-trace
+
+# sentry
+.sentrycli
+
+# cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# playwright
+test-results/
+playwright-report/
+
+# ESLint and Prettier
+.eslintcache
+.stylelintcache
+.prettiercache
+
+# webpack
+.webpack/
+.webpack-assets.json
+
+# system files
+*.orig
+*.rej
+
+# package manager specific
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# node runtime
+node_modules/
+
+# custom for your portfolio
+/public/og-image.png  # if generated dynamically
+/public/favicon.ico   # if generated dynamically
+/app-icon.png
+/opengraph-image.*
+/twitter-image.*
+
+# analytics data
+.analytics
+.ga
+
+# session data
+.session
+.sessions
+
+# uploaded assets
+/public/uploads/
+/uploads/
+
+# backup of critical files
+*.backup
+*.old
+*.orig
