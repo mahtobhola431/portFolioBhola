@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { projects } from "@/data";
 import { SectionHeader } from "@/components/ui/SectionHeader";
@@ -26,6 +27,17 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
     >
       {/* Visual header */}
       <div className={cn("relative h-40 overflow-hidden bg-gradient-to-br", project.imageGradient)}>
+        {/* Project screenshot */}
+        {project.image && (
+          <Image
+            src={project.image}
+            alt={`${project.title} preview`}
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            className="object-cover object-top"
+          />
+        )}
+
         {/* Grid pattern */}
         <div
           className="absolute inset-0 opacity-20"

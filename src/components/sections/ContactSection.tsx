@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { personalInfo } from "@/data";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { fadeInLeft, fadeInRight } from "@/lib/animations";
+import emailjs from "@emailjs/browser";
 
 type FormState = {
   name: string;
@@ -85,12 +86,32 @@ export function ContactSection() {
       return;
     }
 
-    setStatus("sending");
-    // Simulate API call — replace with real endpoint
-    await new Promise((r) => setTimeout(r, 1500));
-    setStatus("sent");
-    setForm({ name: "", email: "", subject: "", message: "" });
-    setTimeout(() => setStatus("idle"), 4000);
+    try {
+      setStatus("sending");
+
+      await emailjs.send(
+        "service_f5ay1zb", // Service ID
+        "template_ft2qg0t", // Template ID
+        {
+          name: form.name,
+          email: form.email,
+          subject: form.subject,
+          message: form.message,
+          time: new Date().toLocaleString(),
+        },
+        "3s_IYNKEPR2GfL8Ig" // ✅ Your Public Key
+      );
+
+      setStatus("sent");
+      setForm({ name: "", email: "", subject: "", message: "" });
+
+      setTimeout(() => {
+        setStatus("idle");
+      }, 4000);
+    } catch (error) {
+      console.error(error);
+      setStatus("error");
+    }
   };
 
   const inputClass = (field: keyof FormState) =>
@@ -248,6 +269,12 @@ export function ContactSection() {
                     </p>
                   )}
                 </div>
+
+                {status === "error" && (
+                  <p className="text-[var(--neon-pink)] text-sm text-center">
+                    Failed to send message. Please try again.
+                  </p>
+                )}
 
                 <motion.button
                   type="submit"

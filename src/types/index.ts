@@ -1,3 +1,5 @@
+import type { StaticImageData } from "next/image";
+
 export interface Project {
   id: string;
   title: string;
@@ -7,6 +9,7 @@ export interface Project {
   liveUrl: string;
   githubUrl: string;
   imageGradient: string;
+  image?: StaticImageData;
   category: "Frontend" | "Backend" | "Full Stack" | "Real-time";
   featured: boolean;
   metrics?: string;

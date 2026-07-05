@@ -95,10 +95,10 @@ export function AchievementsSection() {
                   LeetCode
                 </p>
                 <p className="font-display font-bold text-white text-lg">
-                  200+ Problems Solved
+                  50+ Problems Solved
                 </p>
                 <p className="text-white/40 text-sm mt-0.5">
-                  Arrays, Trees, DP, Graphs, System Design
+                  Arrays, Strings, System Design
                 </p>
               </div>
             </div>
