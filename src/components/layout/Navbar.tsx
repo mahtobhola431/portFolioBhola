@@ -100,7 +100,7 @@ export function Navbar() {
           </div>
 
           {/* Resume Button with premium animation */}
-          <motion.a
+          {/* <motion.a
             href={personalInfo.resumeUrl}
             download
             whileHover={{ scale: 1.05 }}
@@ -116,7 +116,7 @@ export function Navbar() {
               whileHover={{ x: 0 }}
               transition={{ duration: 0.3 }}
             />
-          </motion.a>
+          </motion.a> */}
         </div>
       </motion.nav>
 

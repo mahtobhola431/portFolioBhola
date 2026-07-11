@@ -3,6 +3,7 @@ import type {
   SkillCategory,
   Experience,
   Achievement,
+  Service,
   Stat,
   NavItem,
 } from "@/types";
@@ -13,6 +14,7 @@ import codecraniumImage from "@/images/codecranium.png";
 export const navItems: NavItem[] = [
   { label: "Home", href: "#hero" },
   { label: "About", href: "#about" },
+  { label: "Services", href: "#services" },
   { label: "Experience", href: "#experience" },
   { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
@@ -24,18 +26,18 @@ export const personalInfo = {
   name: "Bhola Mahto",
   titles: [
     "Full Stack Developer",
-    'software Developer',
-    "React Engineer",
-    "Scalable System Builder",
+    "MERN Stack Developer",
+    "Backend & API Engineer",
+    "Freelance Web Developer",
   ],
   location: "Mumbai, Maharashtra",
   email: "bholamahto255@gmail.com",
   phone: "+91 9326272432",
   linkedin: "https://linkedin.com/in/bhola-mahto-39172a192",
   github: "https://github.com/mahtobhola431",
-  bio: "2 years of full stack development experience focused on scalable frontend architecture, SEO systems, dashboards, APIs, AWS integrations, and production-grade applications.",
+  bio: "Full stack developer with 2 years of experience shipping complete web products end-to-end — from database schemas and REST APIs to pixel-perfect, high-performance frontends. I help businesses and founders turn ideas into production-grade applications.",
   extendedBio:
-    "Strong expertise in React, Next.js, Redux, Node.js, MongoDB, microservices, Redis, Kafka, Docker, and cloud integrations. Passionate about building systems that scale and interfaces that delight.",
+    "I own the whole stack: Node.js, Express & NestJS backends, MongoDB & SQL data layers, Redis, Kafka and microservices on the server, and React, Next.js, Redux & TypeScript on the client — all deployed with Docker and AWS. Whether it's an MVP, an API, or a dashboard, I build systems that scale and interfaces that convert.",
   resumeUrl: "/resume.pdf",
 };
 
@@ -50,9 +52,9 @@ export const experiences: Experience[] = [
   {
     id: "exp-1",
     role: "Full Stack Developer",
-    company: "Current Company",
+    company: "Admobs",
     period: "2024- – Present",
-    location: "Mumbai, Maharashtra (Remote)",
+    location: "Mumbai, Maharashtra ",
     type: "full-time",
     description: [
       "Architected and improved SEO systems achieving significant organic traffic growth through structured data and dynamic sitemap generation",
@@ -125,6 +127,65 @@ export const skillCategories: SkillCategory[] = [
       { name: "Python", level: 72, color: "#3776AB" },
       { name: "C++", level: 70, color: "#00599C" },
       { name: "SQL", level: 82, color: "#4479A1" },
+    ],
+  },
+];
+
+export const services: Service[] = [
+  {
+    id: "s1",
+    title: "Full Stack Web Apps",
+    description:
+      "Complete web applications built end-to-end — from data modelling and APIs to a fast, responsive UI. One developer, the whole stack, zero handoff gaps.",
+    icon: "🧩",
+    color: "#00f5ff",
+    features: [
+      "Next.js / React frontends",
+      "Node.js & Express APIs",
+      "MongoDB / SQL data layer",
+      "Auth, roles & payments",
+    ],
+  },
+  {
+    id: "s2",
+    title: "APIs & Backend Systems",
+    description:
+      "Robust, well-documented REST APIs and backend services with authentication, rate limiting, caching and clean architecture — ready to power web or mobile clients.",
+    icon: "⚙️",
+    color: "#bf5af2",
+    features: [
+      "REST API design",
+      "JWT auth & RBAC",
+      "Redis caching & queues",
+      "Microservices & Docker",
+    ],
+  },
+  {
+    id: "s3",
+    title: "MVP & Product Development",
+    description:
+      "Have an idea? I take founders from concept to a shippable MVP fast — a polished, production-ready product you can put in front of real users and investors.",
+    icon: "🚀",
+    color: "#30d158",
+    features: [
+      "Idea to launch, end-to-end",
+      "Scalable architecture from day 1",
+      "Cloud deployment (AWS / Vercel)",
+      "Iterative, fast delivery",
+    ],
+  },
+  {
+    id: "s4",
+    title: "Performance, SEO & Dashboards",
+    description:
+      "Speed, search visibility and data. I optimise Core Web Vitals, build SEO systems that rank, and craft admin dashboards that make data actionable.",
+    icon: "📈",
+    color: "#0a84ff",
+    features: [
+      "90+ Lighthouse performance",
+      "SEO & structured data",
+      "Admin & analytics dashboards",
+      "Real-time data & charts",
     ],
   },
 ];

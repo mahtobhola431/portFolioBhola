@@ -39,33 +39,33 @@ function StatCard({
 const timeline = [
   {
     year: "Aug 2024",
-    title: "Started Full Stack Developer Journey",
+    title: "Started Full Stack Journey",
     description:
-      "Started working professionally with React, Next.js, Node.js, and MongoDB while building scalable frontend interfaces and backend APIs.",
+      "Began building complete web applications professionally — designing MongoDB schemas and Node.js/Express APIs on the server, and React/Next.js interfaces on the client.",
     color: "var(--neon-cyan)",
   },
 
   {
     year: "Dec 2024",
-    title: "Frontend & Dashboard Development",
+    title: "APIs, Dashboards & SEO Systems",
     description:
-      "Built responsive SEO-friendly web applications, admin dashboards, reusable UI systems, and API integrations using modern React ecosystem tools.",
+      "Shipped REST APIs with auth and caching, admin dashboards, dynamic SEO pipelines, and AWS S3 media integrations for production applications serving real users.",
     color: "var(--neon-purple)",
   },
 
   {
     year: "2025",
-    title: "Advanced Full Stack Projects",
+    title: "Scalable Architecture & Microservices",
     description:
-      "Worked on production-level applications with authentication, Redux state management, SSR, performance optimization, and scalable architecture.",
+      "Worked across the stack on production systems — Redis caching, microservices, JWT authentication, RBAC, Docker deployments, SSR and performance optimization.",
     color: "var(--neon-blue)",
   },
 
   {
     year: "2026",
-    title: "Full Stack Developer",
+    title: "Full Stack Freelance & Contract Work",
     description:
-      "Focused on frontend architecture, animated user experiences, scalable dashboards, API systems, and modern high-performance web applications.",
+      "Delivering end-to-end products for clients — from database and API design to polished, high-performance frontends, deployed and ready for real-world scale.",
     color: "var(--neon-green)",
   },
 ];
@@ -83,8 +83,8 @@ export function AboutSection() {
         <SectionHeader
           eyebrow="About Me"
           title="Building the web, "
-          highlight="one system at a time"
-          description="From Mumbai's tech scene to production-grade systems."
+          highlight="end to end"
+          description="A full stack developer who takes products from database to deployment — and freelances for clients who need it all done well."
           className="mb-16"
         />
 
@@ -122,7 +122,7 @@ export function AboutSection() {
                 </p>
 
                 <div className="mt-6 pt-6 border-t border-white/5 flex flex-wrap gap-3">
-                  {["📍 Mumbai, MH", "💼 2 yrs exp", "🎯 Open to roles"].map(
+                  {["📍 Mumbai, MH", "💼 2 yrs exp", "🎯 Freelance & full-time"].map(
                     (tag) => (
                       <span
                         key={tag}

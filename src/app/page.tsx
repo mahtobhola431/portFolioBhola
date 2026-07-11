@@ -11,6 +11,10 @@ const AboutSection = dynamic(
   () => import("@/components/sections/AboutSection").then((m) => m.AboutSection),
   { ssr: true }
 );
+const ServicesSection = dynamic(
+  () => import("@/components/sections/ServicesSection").then((m) => m.ServicesSection),
+  { ssr: true }
+);
 const ExperienceSection = dynamic(
   () => import("@/components/sections/ExperienceSection").then((m) => m.ExperienceSection),
   { ssr: true }
@@ -43,6 +47,7 @@ export default function Home() {
 
         <HeroSection />
         <AboutSection />
+        <ServicesSection />
         <ExperienceSection />
         <SkillsSection />
         <ProjectsSection />

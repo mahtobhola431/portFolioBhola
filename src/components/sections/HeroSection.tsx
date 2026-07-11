@@ -114,7 +114,7 @@ export function HeroSection() {
         >
           <span className="inline-flex items-center gap-2 font-mono text-xs tracking-[0.25em] text-[var(--neon-cyan)] uppercase glass px-4 py-2 rounded-full border border-[var(--neon-cyan)]/20">
             <span className="w-2 h-2 rounded-full bg-[var(--neon-cyan)] animate-pulse" />
-            Available for opportunities
+            Available for freelance & full-time work
           </span>
         </motion.div>
 
@@ -158,11 +158,11 @@ export function HeroSection() {
           animate="visible"
           className="text-white/45 text-base md:text-lg max-w-xl mx-auto leading-relaxed mb-10"
         >
-          Building{" "}
-          <span className="text-white/70">scalable systems</span>,{" "}
-          <span className="text-white/70">performant frontends</span>, and{" "}
-          <span className="text-white/70">elegant APIs</span> — 2 years of
-          production experience from Mumbai.
+          I build complete web products end-to-end —{" "}
+          <span className="text-white/70">robust backends</span>,{" "}
+          <span className="text-white/70">scalable APIs</span>, and{" "}
+          <span className="text-white/70">performant frontends</span>. 2 years
+          of production experience, ready for your next project.
         </motion.p>
 
         {/* CTAs */}
@@ -204,7 +204,7 @@ export function HeroSection() {
             Get in Touch
           </button>
 
-          <a
+          {/* <a
             href={personalInfo.resumeUrl}
             download
             className="px-7 py-3.5 rounded-xl font-semibold text-sm border border-[var(--neon-cyan)]/20 text-[var(--neon-cyan)] hover:bg-[var(--neon-cyan)]/10 transition-all duration-300 flex items-center gap-2"
@@ -213,7 +213,7 @@ export function HeroSection() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
             </svg>
             Resume
-          </a>
+          </a> */}
         </motion.div>
 
         {/* Social links */}

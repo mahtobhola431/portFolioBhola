@@ -130,7 +130,7 @@ export function ContactSection() {
           eyebrow="Contact"
           title="Let's build "
           highlight="together"
-          description="Open to full-time roles, freelance, and interesting projects."
+          description="Available for freelance projects, contracts, and full-time roles. Let's talk about what you need built."
           className="mb-14"
         />
 
@@ -149,13 +149,13 @@ export function ContactSection() {
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-2.5 h-2.5 rounded-full bg-[var(--neon-green)] animate-pulse" />
                 <span className="font-mono text-xs text-[var(--neon-green)] font-medium tracking-widest uppercase">
-                  Available for hire
+                  Available for work
                 </span>
               </div>
               <p className="text-white/55 text-sm leading-relaxed">
-                Currently open to full-time opportunities in frontend, full
-                stack, or backend roles — especially product companies building
-                at scale.
+                Taking on freelance and contract projects — full stack web apps,
+                APIs, and MVPs — and open to full-time full stack roles. Tell me
+                what you&apos;re building and I&apos;ll help you ship it.
               </p>
             </div>
 

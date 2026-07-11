@@ -40,6 +40,15 @@ export interface Experience {
   type: "full-time" | "contract" | "freelance";
 }
 
+export interface Service {
+  id: string;
+  title: string;
+  description: string;
+  icon: string;
+  color: string;
+  features: string[];
+}
+
 export interface Achievement {
   id: string;
   title: string;
