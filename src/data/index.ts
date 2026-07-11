@@ -243,13 +243,13 @@ export const projects: Project[] = [
     description:
       "Full-featured beauty discovery platform with personalized recommendations and editorial content.",
     longDescription:
-      "Built the complete frontend for GlamGuider — a beauty platform with product discovery, user reviews, expert guides, and personalized recommendations. Achieved 90+ Lighthouse scores.",
-    techStack: ["Next.js", "React", "Tailwind", "Framer Motion", "MongoDB", "AWS S3"],
+      "Built GlamGuider end-to-end — a beauty platform with product discovery, user reviews, expert guides, and personalized recommendations. Node.js APIs over MongoDB power the backend, with AWS S3 media storage and a Next.js frontend hitting 90+ Lighthouse scores.",
+    techStack: ["Next.js", "React", "Node.js", "MongoDB", "AWS S3", "Tailwind"],
     liveUrl: "https://glamguider.com/",
     githubUrl: "https://github.com/mahtobhola431",
     imageGradient: "from-pink-500/20 via-rose-500/10 to-transparent",
     image: glamguiderImage,
-    category: "Frontend",
+    category: "Full Stack",
     featured: false,
     metrics: "90+ Lighthouse",
   },
@@ -260,7 +260,7 @@ export const projects: Project[] = [
       "Interactive full-stack learning platform for coding education with role-based access for learners, instructors, and admins.",
     longDescription:
       "Built CodeCranium end-to-end — a Next.js 16 + React 19 frontend delivering a fast, typed UI with server state managed by TanStack Query and client state by Zustand. The Express 5 backend exposes a REST API over MongoDB Atlas with JWT-based authentication and role-based access control for learners, instructors, and admins.",
-    techStack: ["Next.js", "React", "TypeScript", "TanStack Query", "Zustand", "Express", "MongoDB", "JWT"],
+    techStack: ["Next.js", "React", "TypeScript", "Node.js", "Express", "MongoDB", "TanStack Query", "JWT"],
     liveUrl: "#",
     githubUrl: "https://github.com/mahtobhola431",
     imageGradient: "from-violet-500/20 via-indigo-500/10 to-transparent",
