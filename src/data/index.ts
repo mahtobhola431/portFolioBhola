@@ -277,7 +277,7 @@ export const projects: Project[] = [
     longDescription:
       "Designed and implemented a scalable API gateway handling authentication, rate limiting, request routing, and circuit breaking. Integrates with multiple microservices and provides a unified API surface.",
     techStack: ["Node.js", "Express", "Redis", "RabbitMQ", "Docker", "JWT"],
-    liveUrl: "#",
+    // liveUrl: "#",
     githubUrl: "https://github.com/mahtobhola431/zomato_microservice",
     imageGradient: "from-orange-500/20 via-amber-500/10 to-transparent",
     category: "Backend",
