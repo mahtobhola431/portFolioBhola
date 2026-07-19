@@ -282,7 +282,7 @@ export const projects: Project[] = [
     imageGradient: "from-orange-500/20 via-amber-500/10 to-transparent",
     category: "Backend",
     featured: false,
-    metrics: "10K+ req/min",
+    // metrics: "10K+ req/min",
   },
   // {
   //   id: "p6",
