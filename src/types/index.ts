@@ -6,7 +6,7 @@ export interface Project {
   description: string;
   longDescription: string;
   techStack: string[];
-  liveUrl: string;
+  liveUrl?: string;
   githubUrl: string;
   imageGradient: string;
   image?: StaticImageData;
