@@ -205,7 +205,7 @@ export const projects: Project[] = [
     image: seoDashboardImage,
     category: "Full Stack",
     featured: true,
-    metrics: "10K+ pages tracked",
+    metrics: "",
   },
   // {
   //   id: "p2",
@@ -261,7 +261,7 @@ export const projects: Project[] = [
     longDescription:
       "Built CodeCranium end-to-end — a Next.js 16 + React 19 frontend delivering a fast, typed UI with server state managed by TanStack Query and client state by Zustand. The Express 5 backend exposes a REST API over MongoDB Atlas with JWT-based authentication and role-based access control for learners, instructors, and admins.",
     techStack: ["Next.js", "React", "TypeScript", "Node.js", "Express", "MongoDB", "TanStack Query", "JWT"],
-    liveUrl: "#",
+    liveUrl: "https://codecranium-frontend.vercel.app/",
     githubUrl: "https://github.com/mahtobhola431",
     imageGradient: "from-violet-500/20 via-indigo-500/10 to-transparent",
     image: codecraniumImage,
@@ -282,7 +282,7 @@ export const projects: Project[] = [
     imageGradient: "from-orange-500/20 via-amber-500/10 to-transparent",
     category: "Backend",
     featured: false,
-    // metrics: "10K+ req/min",
+    metrics: "",
   },
   // {
   //   id: "p6",
